@@ -1,0 +1,157 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Aboreto-Regular';
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 9;
+}
+
+.nav {
+  padding: 10px 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.brand-logo {
+  height: 120px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.search {
+  width: 500px;
+  display: flex;
+}
+
+.search-box {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #d1d1d1;
+  text-transform: capitalize;
+  background: none;
+  color: #a9a9a9;
+  outline: none;
+}
+
+.search-btn {
+  width: 20%;
+  height: 40px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #383838;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder {
+  color: #a9a9a9;
+}
+
+.cart {
+  width: 5px;
+  height: 5px;
+  display: inline;
+  text-indent: 20px;
+}
+
+.cart-Btn {
+  display: inline-grid;
+  position: absolute;
+  top: 40px;
+}
+
+.nav-items a {
+  margin-left: 20px;
+}
+
+.nav-items a img {
+  width: 50px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: #cfcfcf;
+  text-decoration: none;
+}
+
+.links-container {
+  width: 100%;
+  display: flex;
+  padding: 10px 10vw;
+  justify-content: center;
+  list-style: none;
+  border-top: 1px solid #d1d1d1;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.link {
+  text-transform: capitalize;
+  padding: 0 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  opacity: 0.55;
+  transition: 0.5s;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+/* Media queries for responsive styles */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left */
+    padding: 10px;
+  }
+
+  .nav-items {
+    margin-top: 10px; /* Add some spacing */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+
+  .search {
+    width: 100%; /* Make the search input full width */
+    margin-top: 10px; /* Add some spacing */
+  }
+
+  .search-box {
+    width: 70%; /* Adjust the width of the search input */
+  }
+
+  .search-btn {
+    width: 30%; /* Adjust the width of the search button */
+  }
+
+  .links-container {
+    justify-content: flex-start; /* Align links to the left */
+  }
+
+  .link {
+    font-size: 18px; /* Adjust font size for smaller screens */
+    margin: 5px; /* Add some spacing between links */
+  }
+}
