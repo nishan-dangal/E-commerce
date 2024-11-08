@@ -28,7 +28,7 @@ const createFooter = () => {
 		</div>
 		
 		
-			<div class="credit">© 2022 Serene Handicraft | All rights reserved </div>
+			<div class="credit">© 2023 Serene Handicraft | All rights reserved </div>
         
     </div>
     `;
