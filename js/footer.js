@@ -9,11 +9,11 @@ const createFooter = () => {
         <div class="footer-ul-container">
             <ul class="category">
                 <li class="category-title">Quick Links</li>
-                <li><a href="#" class="footer-link">Beanie</a></li>
-                <li><a href="#" class="footer-link">Gloves</a></li>
-                <li><a href="#" class="footer-link">Socks</a></li>
-                <li><a href="#" class="footer-link">kids</a></li>
-                <li><a href="#" class="footer-link">Accessories</a></li>
+                <li><a href="Beanies.html" class="footer-link">Beanie</a></li>
+                <li><a href="Gloves.html" class="footer-link">Gloves</a></li>
+                <li><a href="Socks.html" class="footer-link">Socks</a></li>
+                <li><a href="Jackets.html" class="footer-link">kids</a></li>
+                <li><a href="Accessories.html" class="footer-link">Accessories</a></li>
                 <li><a href="contactUs.html" class="footer-link">Contact    Us</a></li>
 
             </ul>
