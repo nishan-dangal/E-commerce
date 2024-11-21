@@ -10,6 +10,65 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+
+<style>
+    /* Assuming this is added to your style.css file */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; /* For inner spacing */
+    margin: 2rem auto; /* Centers the section on the page */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact .container {
+    max-width: 600px; /* Restrict the width */
+    width: 100%; /* Full width for smaller screens */
+    padding: 1.5rem; /* Inner spacing */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact .container form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+.contact .container form input,
+.contact .container form select,
+.contact .container form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact .container form input[type="submit"] {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact .container form input[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+</style>
 </head>
 
 
@@ -48,7 +107,8 @@
               
                 </form>
               </div>
-
+    </div>
+    </section>
 
 <footer>
 </footer>
