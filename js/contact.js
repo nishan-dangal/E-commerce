@@ -19,4 +19,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     // If all fields are valid
     message.style.color = 'green';
     message.textContent = 'Form successfully sent!';
+
+
+    // Submit the form programmatically
+    this.submit();
   });
