@@ -21,6 +21,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     message.textContent = 'Form successfully sent!';
 
 
-    // Submit the form programmatically
-    this.submit();
+    // Simulate form processing (e.g., send data via API)
+    setTimeout(() => {
+        message.textContent = ''; // Clear the message after a few seconds
+      }, 3000);
   });
