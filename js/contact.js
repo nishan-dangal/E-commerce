@@ -20,9 +20,13 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     message.style.color = 'green';
     message.textContent = 'Form successfully sent!';
 
+    // Reset the form values
+     this.reset();
 
     // Simulate form processing (e.g., send data via API)
     setTimeout(() => {
         message.textContent = ''; // Clear the message after a few seconds
       }, 3000);
+
+    
   });
